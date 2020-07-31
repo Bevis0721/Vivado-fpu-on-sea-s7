@@ -13,7 +13,7 @@ Git stats
 通过串口监视器进行输入和观察输出    
 为方便演示，输入1=输入2=3.14（以二进制方式输入）  
 3.14与9.85的16进制表示：  
-![image](https://github.com/Bevis0721/Vivado-fpu-on-sea-s7/blob/master/%E6%A1%88%E4%BE%8B%E6%BC%94%E7%A4%BA/3.14.jpg)
+![image](https://github.com/Bevis0721/Vivado-fpu-on-sea-s7/blob/master/%E6%A1%88%E4%BE%8B%E6%BC%94%E7%A4%BA/3.14.jpg)  
 ![image](https://github.com/Bevis0721/Vivado-fpu-on-sea-s7/blob/master/%E6%A1%88%E4%BE%8B%E6%BC%94%E7%A4%BA/9.8596.jpg） 
 
 由于modqspi传输会丢失初始的数据，因此输入第一个数据无视，最后一个输入为运算符确定（0123，加减乘除）  
