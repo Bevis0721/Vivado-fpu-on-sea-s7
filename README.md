@@ -9,3 +9,6 @@ QSPO_slave_tp is the top module to connect each module.
 qspi_slave is a module to connect ram with FPGA.
 FPU is a module to compute,
 Git stats
+
+通过串口监视器进行输入和观察输出
+为方便演示，输入1=输入2=3.14（以二进制方式输入）
