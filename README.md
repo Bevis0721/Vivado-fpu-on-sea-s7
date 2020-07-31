@@ -3,7 +3,7 @@
 --2020.7.26 16:50
 
 2020.7.31 实现二进制的浮点数运算
-上传代码（无IP核）
+上传代码（无IP核）。
 qspi_adder is a data process module, we change its time cycle to compute float (add, minus, multiply, divide).
 QSPO_slave_tp is the top module to connect each module.
 qspi_slave is a module to connect ram with FPGA.
