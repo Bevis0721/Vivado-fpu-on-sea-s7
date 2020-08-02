@@ -3,10 +3,14 @@
 目标：将fpu通过FPGA实现连接到esp32实现基本的浮点运算。 
 ## 项目概要：在esp32上增加浮点数运算处理   
 通过upycraft的串口监视器发送数据，运算后返回到串口监视器验证。  
+### 实现原理
+float型浮点数可以按照IEEE754转换为32位二进制数，数据通过串口输入，利用QSPI通信协议模块传输到RAM端，RAM端数据被FPGA端读取并进行FPU的运算，将结果输出返回到RAM端，再次通过QSPI通信模块传输到串口显示器加以验证。  
+### 实现功能
+按规定输入两个二进制显示的float数和运算符，最后返回一个二进制运算结果。  
 ## 使用的⼯具版本： 
 upycraft v1.0    
 ## 板卡型号：
-Spartan Edge Accelerator Board  (SEA)  
+Spartan Edge Accelerator Board  (SEA board)  
 
 
 ## 组队人员：  
