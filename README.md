@@ -1,14 +1,18 @@
 # Instruction ESP32添加FPU（无外设）
 
-项⽬概要：在esp32上增加一定的浮点数运算处理  
-使⽤的⼯具版本： upycraft v1.0  
-板卡型号：Spartan Edge Accelerator Board  
+# 项⽬概要：在esp32上增加浮点数运算处理  
+通过upycraft的串口监视器发送数据，运算后返回到串口监视器验证  
+# 使⽤的⼯具版本： 
+upycraft v1.0    
+# 板卡型号：
+Spartan Edge Accelerator Board  (SEA)  
+
 仓库⽬录：如描述  
-组队人员：  
+# 组队人员：  
   队长 2018112801  
   队员 2018112772
 
-
+# 上传记录
 2020年新工科联盟-Xilinx暑期学校（Summer School）项目。 目标是将fpu通过FPGA实现连接到esp32实现基本的浮点运算。
 --2020.7.26 16:50
 
@@ -19,6 +23,7 @@ QSPO_slave_tp is the top module to connect each module.
 qspi_slave is a module to connect ram with FPGA.  
 FPU is a module to compute。  
 Git stats
+# 案例演示
 
 通过串口监视器进行输入和观察输出    
 为方便演示，输入1=输入2=3.14（以二进制方式输入）  
