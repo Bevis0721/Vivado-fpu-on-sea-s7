@@ -14,13 +14,13 @@ Spartan Edge Accelerator Board  (SEA)
   队员 2018112772
 
 # 上传记录
-目标：将fpu通过FPGA实现连接到esp32实现基本的浮点运算。 
-2020.7.26  
-创立仓库 
+目标：将fpu通过FPGA实现连接到esp32实现基本的浮点运算。  
+2020.7.26    
+创立仓库   
 
-2020.7.31 
-实现二进制的浮点数运算
-上传代码（无IP核）。
+2020.7.31   
+实现二进制的浮点数运算  
+上传代码（无IP核）。  
 qspi_adder is a data process module, we change its time cycle to compute float (add, minus, multiply, divide).  
 QSPO_slave_tp is the top module to connect each module.  
 qspi_slave is a module to connect ram with FPGA.  
